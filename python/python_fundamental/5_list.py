@@ -206,3 +206,10 @@ matrix = [
 ]
 print(matrix[0][1])  # 2
 
+# List → Tuple
+my_list = [1, 2, 3, 4]
+
+my_tuple = tuple(my_list)
+
+print(my_tuple)  #  (1, 2, 3, 4)
+print(type(my_tuple))  # <class 'tuple'>
