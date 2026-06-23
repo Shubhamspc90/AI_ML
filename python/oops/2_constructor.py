@@ -46,3 +46,33 @@ print(e1.salary)  # 0
 print(e2.salary)  # 50000
 
 # So, in Python, the constructor is the __init__() method used to initialize an object when it is created.
+
+# Destructor
+class Demo:
+
+    def __del__(self):
+        print("Destructor Called")
+
+d = Demo()
+del d
+
+
+# 20. Instance, Class and Static Method
+class Demo:
+
+    def instance_method(self):
+        print("Instance Method")
+
+    @classmethod
+    def class_method(cls):
+        print("Class Method")
+
+    @staticmethod
+    def static_method():
+        print("Static Method")
+
+obj = Demo()
+
+obj.instance_method()
+Demo.class_method()
+Demo.static_method()
