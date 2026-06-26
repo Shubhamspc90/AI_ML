@@ -1,0 +1,97 @@
+Virtualenv Quick Guide
+
+Installation Check
+
+If you run:
+
+    pip install virtualenv
+
+and see:
+
+    Requirement already satisfied: virtualenv ...
+
+it means virtualenv is already installed. This is not an error.
+
+Meaning of each package
+
+-   virtualenv – Creates isolated Python environments.
+-   distlib – Dependency used by virtualenv.
+-   filelock – Prevents multiple processes from modifying the same
+    files.
+-   platformdirs – Finds platform-specific folders.
+-   python-discovery – Finds installed Python versions.
+
+Your installation path:
+
+    C:\Users\Shubham Chauhan\AppData\Roaming\Python\Python312\site-packages
+
+------------------------------------------------------------------------
+
+Create a Virtual Environment
+
+Step 1: Go to your project folder
+
+    cd path\to\your\project
+
+Example:
+
+    cd D:\Python Projects\MyApp
+
+Step 2: Create the virtual environment
+
+    python -m virtualenv venv
+
+or
+
+    virtualenv venv
+
+This creates a folder named venv.
+
+Step 3: Activate it
+
+Command Prompt (CMD)
+
+    venv\Scripts\activate
+
+PowerShell
+
+    venv\Scripts\Activate.ps1
+
+After activation:
+
+    (venv) D:\Python Projects\MyApp>
+
+Step 4: Install packages
+
+    pip install flask
+
+or
+
+    pip install django
+
+Step 5: Deactivate
+
+    deactivate
+
+------------------------------------------------------------------------
+
+Check the Version
+
+    virtualenv --version
+
+or
+
+    python -m virtualenv --version
+
+------------------------------------------------------------------------
+
+Summary
+
+  Command                     Purpose
+  --------------------------- ----------------------------
+  pip install virtualenv      Install virtualenv
+  python -m virtualenv venv   Create virtual environment
+  venv\Scripts\activate       Activate (CMD)
+  pip install <package>       Install packages
+  deactivate                  Exit virtual environment
+  virtualenv --version        Check installed version
