@@ -1,0 +1,5 @@
+
+Hello
+Welcome to Python
+File Handling
+I am going to append the content into vcp.txt
