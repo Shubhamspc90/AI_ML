@@ -1,0 +1,51 @@
+1. pip install fastapi
+2. pip install uvicorn
+
+3. pip show fastapi
+4. pip show uvicorn
+
+5. create  main.py
+    =>  app = FastAPI()
+        @app.get("/")
+        def home():
+            return {
+                "message":"Hello API"
+            }
+        
+
+python -m uvicorn main:app --reload
+
+
+
+Step 1: Browser Test
+Browser me open karo: http://127.0.0.1:8000/
+Tumhe output dikhna chahiye:
+{
+  "message": "Hello API"
+}
+
+
+Step 2: Swagger UI
+Open:
+http://127.0.0.1:8000/docs
+Yahan tumhari pehli API automatically document ho jayegi.
+*************************************************************
+
+
+
+****
+Step 3: Thunder Client
+VS Code me Thunder Client open karo.
+New Request banao.
+
+Method:  GET
+
+URL:  http://127.0.0.1:8000/
+Send button dabao.
+
+Response:
+{
+    "message": "Hello API"
+}
+
+****************************************
