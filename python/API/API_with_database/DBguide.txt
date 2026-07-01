@@ -1,0 +1,41 @@
+
+NOTES: ****************************************
+Database connect kaun karta hai?
+FastAPI
+↓
+SQLAlchemy
+↓
+MySQL
+
+FastAPI direct MySQL se baat nahi karta.
+Beech me ek layer hoti hai.
+Uska naam hai => SQLAlchemy (ORM)
+************************************************
+
+Install packages:
+pip install sqlalchemy pymysql
+pip show sqlalchemy
+pip show pymysql
+
+
+Thunder Client Collection
+| Method |           URL                    |
+| ------ | ---------------------------------|
+| GET    | http://127.0.0.1:8000/           |
+| POST   | http://127.0.0.1:8000/students   |
+| GET    | http://127.0.0.1:8000/students   |
+| GET    | http://127.0.0.1:8000/students/4 |
+| PUT    | http://127.0.0.1:8000/students/4 |
+| DELETE | http://127.0.0.1:8000/students/4 |
+
+12. CRUD Mapping
+|   SQLAlchemy  |      SQL           |
+| --------------| ------------------ |
+| db.add()      | INSERT             |
+| db.query()    | SELECT             |
+| .filter()     | WHERE              |
+| .all()        | SELECT *           |
+| .first()      | LIMIT 1            |
+| db.commit()   | Save Changes       |
+| db.refresh()  | Reload Updated Row |
+| db.delete()   | DELETE             |
