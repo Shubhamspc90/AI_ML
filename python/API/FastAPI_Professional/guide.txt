@@ -1,0 +1,135 @@
+
+Virtual Environment  (python -m venv venv)
+
+Project structure:
+FastAPI_Professional/
+│
+└── venv/
+
+Activate Virtual Environment  (venv\Scripts\activate)
+Terminal me aisa dikhna chahiye:
+(venv) PS E:\AI Learning\AI_ML\python\API\FastAPI_Professional>
+Rule: Ab se is project me hamesha (venv) active hona chahiye.
+
+Install Packages:
+pip install fastapi uvicorn sqlalchemy pymysql email-validator python-dotenv
+
+Ye packages use honge:
+| Package         | Use              |
+| --------------- | ---------------- |
+| fastapi         | API Framework    |
+| uvicorn         | Server           |
+| sqlalchemy      | ORM              |
+| pymysql         | MySQL Driver     |
+| email-validator | Email Validation |
+| python-dotenv   | .env File        |
+
+Freeze Requirements
+Run:  pip freeze > requirements.txt
+Ab structure:
+FastAPI_Professional/
+│
+├── requirements.txt
+└── venv/
+Ye bahut important file hai.
+
+Kal agar koi developer project clone kare to sirf:
+pip install -r requirements.txt
+Aur saare packages install ho jayenge.
+
+Create Project Structure:
+FastAPI_Professional/
+│
+├── venv/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   │
+│   ├── routers/
+│   │      └── __init__.py
+│   │
+│   ├── crud/
+│   │      └── __init__.py
+│   │
+│   ├── services/
+│   │      └── __init__.py
+│   │
+│   ├── core/
+│   │      └── __init__.py
+│   │
+│   └── utils/
+│          └── __init__.py
+│
+├── .env
+│
+├── .gitignore
+│
+└── requirements.txt
+
+
+Folder Explanation
+app/
+Application ka main source code.
+
+routers/
+Sirf API routes.
+Example:
+students.py
+teachers.py
+courses.py
+
+crud/
+Database queries.
+Example:
+create_student()
+update_student()
+delete_student()
+
+services/
+Business Logic.
+Example:
+calculate_fee()
+send_email()
+generate_report()
+
+core/
+Configuration.
+JWT
+Security
+Settings
+
+utils/
+Helper Functions.
+Example:
+password hashing
+date formatter
+OTP generator
+
+Step 9: .gitignore
+Create
+.gitignore
+
+Usme likho:
+venv/
+__pycache__/
+.env
+*.pyc
+
+Step 10: .env
+Create
+.env
+
+Abhi sirf itna likho.
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=root123
+DB_NAME=student_db
+
+⚠️ Password hardcode nahi karenge.
+.env se read karenge.
+Ye industry standard hai.
