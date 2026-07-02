@@ -34,7 +34,7 @@ def create_student(
 def get_all_students(
     db: Session = Depends(get_db)
 ):
-    return student_crud.get_all_students(db)
+    return student_service.get_all_students(db)
 
 
 # GET STUDENT BY ID
@@ -44,7 +44,7 @@ def get_student_by_id(
     db:Session = Depends(get_db)
 ): 
     # Call CRUD Function
-    student = student_crud.get_student_by_id(
+    student = student_service.get_student_by_id(
         db,
         student_id
     )
@@ -69,7 +69,7 @@ def update_student(
     db: Session = Depends(get_db)
 ):
     # Call CRUD Function
-    updated_student = student_crud.update_student(
+    updated_student = student_service.update_student(
         db,
         student_id,
         student
@@ -88,7 +88,7 @@ def update_student(
 # DELETE STUDENT API
 @router.delete("/{student_id}",status_code=status.HTTP_200_OK)
 def delete_student(student_id:int , db:Session=Depends(get_db)):
-    deleted = student_crud.delete_student(
+    deleted = student_service.delete_student(
         db,
         student_id
     )
