@@ -2,7 +2,6 @@
 # student_service.py
 #
 # Business Logic
-#
 # NOTE:
 # Yahan sirf Business Logic hoga.
 # Database query yahan nahi hogi.
