@@ -1,0 +1,163 @@
+NumPy Practice Questions (Master List)
+
+Practice Set 1: Array Creation
+
+1.  Create a 1D array containing numbers 1 to 10.
+2.  Create a 2D array of shape (3, 3).
+3.  Create a 3D array of shape (2, 2, 2).
+4.  Create an array using arange() from 10 to 50.
+5.  Create an array using linspace() with 10 values between 0 and 1.
+6.  Create a zeros matrix (3x4).
+7.  Create a ones matrix (4x2).
+8.  Create an identity matrix (5x5).
+9.  Create a full array filled with 100.
+10. Create an empty array.
+11. Create an array with even numbers from 2 to 100.
+12. Create an array with odd numbers from 1 to 99.
+13. Create a diagonal matrix.
+14. Create an array from a Python list.
+15. Create an array with a specific data type.
+
+Practice Set 2: Array Attributes
+
+16. Find shape.
+17. Find ndim.
+18. Find size.
+19. Find dtype.
+20. Change dtype.
+21. Find itemsize.
+22. Find nbytes.
+23. Check memory usage.
+24. Reshape an array.
+25. Flatten an array.
+26. Use ravel().
+27. Resize an array.
+28. Copy an array.
+29. Create a view.
+30. Compare copy vs view.
+
+Practice Set 3: Indexing & Slicing
+
+31. Positive indexing.
+32. Negative indexing.
+33. Slice first five elements.
+34. Slice last five elements.
+35. Reverse an array.
+36. Slice with step=2.
+37. Extract first row.
+38. Extract last column.
+39. Extract middle row.
+40. Extract sub-matrix.
+41. Modify one element.
+42. Modify multiple elements.
+43. Boolean indexing (>50).
+44. Boolean indexing (even numbers).
+45. Fancy indexing.
+46. Select alternate rows.
+47. Select alternate columns.
+48. Replace values greater than 50.
+49. Find maximum element index.
+50. Find minimum element index.
+
+Practice Set 4: Operations
+
+51. Addition.
+52. Subtraction.
+53. Multiplication.
+54. Division.
+55. Floor division.
+56. Modulus.
+57. Power.
+58. Square.
+59. Square root.
+60. Absolute value.
+61. Sum.
+62. Product.
+63. Mean.
+64. Median.
+65. Standard deviation.
+66. Variance.
+67. Minimum.
+68. Maximum.
+69. Compare two arrays.
+70. Broadcasting example.
+
+Practice Set 5: Array Manipulation
+
+71. reshape()
+72. flatten()
+73. ravel()
+74. transpose()
+75. concatenate()
+76. split()
+77. hstack()
+78. vstack()
+79. column_stack()
+80. row_stack()
+81. insert()
+82. append()
+83. delete()
+84. unique()
+85. sort()
+86. argsort()
+87. flip()
+88. roll()
+89. tile()
+90. repeat()
+
+Practice Set 6: Random Module
+
+91. rand()
+92. randn()
+93. randint()
+94. random()
+95. choice()
+96. shuffle()
+97. permutation()
+98. seed()
+99. Generate random matrix.
+100. Generate random sample.
+
+Practice Set 7: Linear Algebra
+
+101. Dot product.
+102. Matrix multiplication.
+103. matmul().
+104. Transpose.
+105. Determinant.
+106. Inverse.
+107. Trace.
+108. Rank.
+109. Eigenvalues.
+110. Eigenvectors.
+
+Practice Set 8: File Handling
+
+111. Save array (.npy).
+112. Load array (.npy).
+113. Save multiple arrays (.npz).
+114. Load multiple arrays.
+115. Save CSV.
+116. Read CSV.
+117. Save TXT.
+118. Read TXT.
+119. Save 2D array.
+120. Read 2D array.
+
+Practice Set 9: Mixed Practice
+
+121-140. Create 20 mixed questions by combining indexing, operations,
+random module and reshaping.
+
+Practice Set 10: Mini Projects
+
+141. Student Marks Analysis
+142. Employee Salary Analysis
+143. Weather Data Analysis
+144. Dice Simulator
+145. Lottery Number Generator
+146. Random Password Generator
+147. Matrix Calculator
+148. Attendance Analyzer
+149. Sales Report Analyzer
+150. Mini NumPy Project (Combine multiple concepts)
