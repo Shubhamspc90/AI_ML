@@ -1,0 +1,47 @@
+[
+    {
+        "Student_ID": 101,
+        "Name": "Amit",
+        "Age": 20,
+        "Gender": "Male",
+        "City": "Delhi",
+        "Course": "BCA",
+        "Marks": 85
+    },
+    {
+        "Student_ID": 102,
+        "Name": "Priya",
+        "Age": 21,
+        "Gender": "Female",
+        "City": "Mumbai",
+        "Course": "BSc",
+        "Marks": 92
+    },
+    {
+        "Student_ID": 103,
+        "Name": "Rahul",
+        "Age": 19,
+        "Gender": "Male",
+        "City": "Jaipur",
+        "Course": "BCom",
+        "Marks": 76
+    },
+    {
+        "Student_ID": 104,
+        "Name": "Sneha",
+        "Age": 22,
+        "Gender": "Female",
+        "City": "Lucknow",
+        "Course": "BCA",
+        "Marks": 88
+    },
+    {
+        "Student_ID": 105,
+        "Name": "Arjun",
+        "Age": 20,
+        "Gender": "Male",
+        "City": "Pune",
+        "Course": "BTech",
+        "Marks": 91
+    }
+]
