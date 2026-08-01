@@ -1,0 +1,11 @@
+Image Name,Actual,Predicted,Confidence (%)
+dog.4943.jpg,Dog,Dog,58.49
+cat.4830.jpg,Cat,Cat,84.83
+cat.4954.jpg,Cat,Cat,78.6
+dog.4578.jpg,Dog,Dog,78.56
+dog.4107.jpg,Dog,Dog,55.81
+dog.4699.jpg,Dog,Cat,88.14
+cat.4326.jpg,Cat,Cat,82.2
+cat.4102.jpg,Cat,Cat,68.51
+dog.4830.jpg,Dog,Dog,86.99
+dog.4907.jpg,Dog,Dog,83.19
